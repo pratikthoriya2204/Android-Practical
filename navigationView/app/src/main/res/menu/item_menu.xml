@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/gallery" android:title="@string/gallery" android:icon="@drawable/gallery"/>
+        <item android:id="@+id/slideshow" android:title="@string/slideshow" android:icon="@drawable/slideshow"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/bottom_nav" android:title="@string/bottom_navigate" android:icon="@drawable/bottom_nav"/>
+            <item android:id="@+id/share" android:title="@string/share" android:icon="@drawable/share"/>
+            <item android:id="@+id/rate" android:title="@string/rate" android:icon="@drawable/rate"/>
+            <item android:id="@+id/privacy" android:title="@string/privacy" android:icon="@drawable/ic_baseline_privacy_tip_24"/>
+            <item android:id="@+id/exit" android:title="@string/exit" android:icon="@drawable/exit"/>
+
+        </menu>
+    </item>
+
+</menu>
